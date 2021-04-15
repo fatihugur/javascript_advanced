@@ -14,15 +14,15 @@ Promise.all([result1, result2]).then(function ([x, y]) {
   console.log(x.result + y.result);
 });
 
-function asyncFunction() {
-  return new Promise((resolve, reject) => {
-    resolve("fatih");
-  });
-}
+// function asyncFunction() {
+//   return new Promise((resolve, reject) => {
+//     resolve("fatih");
+//   })
+// }
 
-(async function () {
-  console.log(await asyncFunction());
-})();
+// (async function () {
+//   console.log(await asyncFunction());
+// })();
 
 // Async Await
 (async () => {
